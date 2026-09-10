@@ -1,0 +1,23 @@
+name: author-recognition
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - requests
+  - pathlib
+  - regex
+  - numpy
+  - matplotlib
+  - spacy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - imbalanced-learn
+      - transformers
+      - datasets
+      - evaluate
+      - accelerate
