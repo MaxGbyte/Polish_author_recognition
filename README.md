@@ -82,7 +82,7 @@ Polish_author_recognition/
 |--- data/      #All full texts
 |--- plots/     #All PNG files generated during models training and validation
 |--- chunks.txt
-|--- polish_author_recognition.ipynb  #File with main script
+|--- main_pipeline.ipynb  #File with main script
 |--- requirements.yml
 |--- README.md
 ```
