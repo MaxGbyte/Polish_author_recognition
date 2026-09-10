@@ -5,7 +5,7 @@
 Create a neural network model to recognize the authors of given old polish novels: Bolesław Prus, Henryk Sienkiewicz, Stanisław Reymont, Stefan Żeromski and Eliza Orzeszkowa.
 ## Workflow
 1. Data extraction:
-  - All data was downloaded using API from website www.wolnelektury.com
+  - All data was downloaded using API from website wolnelektury.pl
   - For each author the number of texts downloaded were in the range of 7-8
   - Each text had to be classified as novel and had to have at least 10000 characters.
 2. Analysis of given data:
