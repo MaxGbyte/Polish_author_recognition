@@ -35,46 +35,17 @@ Stack model:
 >Each model was trained separately
 ## Available data
 Each of the analyzed texts was retrieved from the wolnelektury.pl website using the site's API. Each text was properly cleaned to remove the superfluous title and footer added by the website. Below is a list of all the authors and the works retrieved for them:
-| Author                          | Work                                                 |
-| ------------------------------- | ---------------------------------------------------- |
-| **Bolesław Prus**               | *The Doll*: Volume I                                 |
-| **Bolesław Prus**               | *The Doll*: Volume II                                |
-| **Bolesław Prus**               | *The Pharaoh*: Volume I                              |
-| **Bolesław Prus**               | *The Pharaoh*: Volume II                             |
-| **Bolesław Prus**               | *The Pharaoh*: Volume III                            |
-| **Bolesław Prus**               | *Anielka*                                            |
-| **Eliza Orzeszkowa**            | *Emancipated Women*: Volume I                        |
-| **Eliza Orzeszkowa**            | *Emancipated Women*: Volume II                       |
-| **Eliza Orzeszkowa**            | *On the Niemen*: Volume I                            |
-| **Eliza Orzeszkowa**            | *On the Niemen*: Volume II                           |
-| **Eliza Orzeszkowa**            | *On the Niemen*: Volume III                          |
-| **Eliza Orzeszkowa**            | *The Boor*                                           |
-| **Eliza Orzeszkowa**            | *Marta*                                              |
-| **Eliza Orzeszkowa**            | *In the Cage*                                        |
-| **Eliza Orzeszkowa**            | *Phantoms*                                           |
-| **Stefan Żeromski**             | *The Homeless* / *Homeless People*: Volume I         |
-| **Stefan Żeromski**             | *The Homeless* / *Homeless People*: Volume II        |
-| **Stefan Żeromski**             | *Ashes*: Volume I                                    |
-| **Stefan Żeromski**             | *Ashes*: Volume II                                   |
-| **Stefan Żeromski**             | *Ashes*: Volume III                                  |
-| **Stefan Żeromski**             | *The Spring to Come*                                 |
-| **Stefan Żeromski**             | *The Syzygy of the Class* / *The Labors of Sisyphus* |
-| **Stefan Żeromski**             | *The Faithful River*                                 |
-| **Władysław Stanisław Reymont** | *The Promised Land*: Volume II                       |
-| **Władysław Stanisław Reymont** | *The Peasants*: Part One                             |
-| **Władysław Stanisław Reymont** | *The Peasants*: Part Three                           |
-| **Władysław Stanisław Reymont** | *The Peasants*: Part Four                            |
-| **Władysław Stanisław Reymont** | *Ferments*: Volume I                                 |
-| **Władysław Stanisław Reymont** | *Ferments*: Volume II                                |
-| **Władysław Stanisław Reymont** | *The Vampire*                                        |
-| **Władysław Stanisław Reymont** | *The Promised Land*: Volume II                       |
-| **Henryk Sienkiewicz**          | *The Knights of the Cross*: Volume I                 |
-| **Henryk Sienkiewicz**          | *The Knights of the Cross*: Volume II                |
-| **Henryk Sienkiewicz**          | *With Fire and Sword*: Volume I                      |
-| **Henryk Sienkiewicz**          | *With Fire and Sword*: Volume II                     |
-| **Henryk Sienkiewicz**          | *The Deluge*: Volume I                               |
-| **Henryk Sienkiewicz**          | *The Deluge*: Volume II                              |
-| **Henryk Sienkiewicz**          | *The Deluge*: Volume III                             |
+| Bolesław Prus | Eliza Orzeszkowa | Stefan Żeromski | Władysław Stanisław Reymont | Henryk Sienkiewicz |
+| --- | --- | --- | --- | --- |
+| *The Doll*: Volume I | *Emancipated Women*: Volume I | *The Homeless* / *Homeless People*: Volume I | *The Promised Land*: Volume II | *The Knights of the Cross*: Volume I |
+| *The Doll*: Volume II | *Emancipated Women*: Volume II | *The Homeless* / *Homeless People*: Volume II | *The Peasants*: Part One | *The Knights of the Cross*: Volume II |
+| *The Pharaoh*: Volume I | *On the Niemen*: Volume I | *Ashes*: Volume I | *The Peasants*: Part Three | *With Fire and Sword*: Volume I |
+| *The Pharaoh*: Volume II | *On the Niemen*: Volume II | *Ashes*: Volume II | *The Peasants*: Part Four | *With Fire and Sword*: Volume II |
+| *The Pharaoh*: Volume III | *On the Niemen*: Volume III | *Ashes*: Volume III | *Ferments*: Volume I | *The Deluge*: Volume I |
+| *Anielka* | *The Boor* | *The Spring to Come* | *Ferments*: Volume II | *The Deluge*: Volume II |
+|  | *Marta* | *The Syzygy of the Class* / *The Labors of Sisyphus* | *The Vampire* | *The Deluge*: Volume III |
+|  | *In the Cage* | *The Faithful River* |  |  |
+|  | *Phantoms* |  |  |  |
 ## Repository contents
 ```text
 Polish_author_recognition/
